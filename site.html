@@ -1,0 +1,170 @@
+<! DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, intinial-scale=1.0">
+	<title>designSM</title>
+	<link rel="stylesheet" href="style.css" >
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+	<nav>
+		<a href="site.html"><img src="logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        	<i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+         	<li><a href="site.html">BOSH SAHIFA</a></li>
+         	<li><a href="yangiliklar.html">YANGILIKLAR</a></li>
+         	<li><a href="ijtimoiytarmoqlar.html">IJTIMOIY TARMOQLARIMIZ</a></li>
+         </ul>        	
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<div class="text-box">
+	<h1>USHBU SAYTDA SIZ</h1>
+<P>saytingiz dizayni uchun kerakli bo'lgan <br>CSS,JavaScript,Html kodlarni topaolasiz</P>
+<a href="kodlar.html" class="hero-btn">KODLAR</a>
+</div>
+
+</section>
+<!----- course ----->
+<section class="course">
+	<h1>Biz bilan</h1>
+<p>birgalikda siz...</p>
+
+<div class="row">	
+	<div class="course-col">
+		<h3>o'z saytingiz uchun kerakli bo'lgan dizayn</h3>
+		<p>Ya'ni CSS,Html,JavaScript va boshqa kodlar yordamida<br> tuzilgan turli-xil namunalar topasiz</p>
+</div>
+	<div class="course-col">
+		<h3>Bepul</h3>
+		<p>Ya'nibizdan topgan barcha kodlaringiz bepul tarzda taqdim qilinadi</p>
+</div>
+	<div class="course-col">
+		<h3>Sifatli</h3>
+		<p>Barcha kodlarimiz chiroyli va mashhur saytlarda bo'lgan dizayn kodarini olasiz </p>
+</div>
+</section>
+<!----- campus ----->
+<section class="campus">
+<h1>Bizning Jamoamiz</h1>
+<p>uncha katta bo'lmagan uch kishilik oilamiz🙂</p>
+
+<div class="row">
+	<div class="campus-col">
+		<img src="designer.jpg">
+		<div  class="layer">
+			<h3>DIZAYNER</h3>
+		</div>
+	</div>
+
+	<div class="campus-col">
+		<img src="ADMIN.jpg">
+		<div  class="layer">	
+			<h3>LIDER </h3>
+		</div>
+	</div>
+	<div class="campus-col">
+		<img src="CODER.jpg">
+		<div class="layer">
+			 <h3>CODER</h3>
+		</div>
+	</div>
+</div>
+</section>
+
+<!----- testimonials ----->
+<section class="testimonials">
+	<h1>JAMOAMIZ SHIORI</h1>
+	
+
+	<div class="row">
+		<div class="testimonial-col">
+		<img src="user.jpg">
+		<div>
+			<p>Omad-bu yolg'izlikdur</p>
+			<h3>Salyamov Muhammadamin</h3>
+		</div>
+
+	</div>
+		<div class="testimonial-col">
+		<img src="user.jpg">
+		<div>
+			<p>Omad-bu yolg'izlikdur</p>
+			<h3>Salyamov Muhammadamin</h3>
+		</div>
+
+	</div>
+</div>
+</section>
+<!------ Call To Action ----->
+<section class="cta">
+	<h1>
+		Dasturlashga qiziqasizmi?,istedotlimisiz?<BR>Jamoamizga qo'shilishni istaysizmi? unda<BR>
+		<a href="https://t.me/DesignerSmuz" class="hero-btn">BIZGA QO'SHILING</a>
+	</h1>
+</section>
+
+<!----- Footer ----->
+	
+
+<section class="footer">
+	<h4> ESLATMA <H4>
+saytimiz yangiligini va jamoamiz yosh dasturchilar ekanligini hisobga olganda,<br> saytimizda baglar va hatolar bo'lishi mumkin siz buni to'gri tushunasiz degan umiddamiz </P>
+<div class="icons">
+</div>
+<i class="fa fa-hearth-o"></i>
+
+
+
+</section>
+
+
+
+
+
+
+
+<!------JavaScript for Toggle menu------>
+
+<script>
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+	navLinks.style.right ="0";
+}
+function hideMenu(){
+	navLinks.style.right = "-200px";
+}
+</script>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
